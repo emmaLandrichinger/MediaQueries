@@ -5,9 +5,32 @@ body {
     background-color: green;
 }
 
+.large{
+    display: none;
+}
+
 /*Alles bis zu einer Maximalen Breite von 1024px*/
 @media (max-width: 1024px){
     html, body {
         background-color: red;
+    }
+}
+/*xs*/
+@media (max-width: 576px) {
+
+    html,
+    body {
+        background-color: yellow;
+    }
+}
+/*Large >= 992*/
+@media (min-width: 991px) and (max-width: 1200px){
+
+    html,
+    body {
+            background-color: pink;
+        }
+    .large{
+        display:block;
     }
 }
