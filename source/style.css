@@ -111,3 +111,7 @@ body {
         display: block;
     }
 }
+
+.quer, .vert{
+    display:none;
+}
