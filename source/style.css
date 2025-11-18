@@ -1,32 +1,18 @@
 html,
 body {
     width: 100%;
-    height: 100%;
+    height: 95%;
+    margin: 0;
+    padding: 0;
     background-color: green;
+    font-family: sans-serif;
+    color: white;
 }
 
-.XS{
-    display: none;
-}
-.S{
-    display: none;
-}
-
-.M{
-    display:none;
-}
-
-.L{
+.XS,.S,.M,.L,.XL,.XXL{
     display: none;
 }
 
-.XL {
-    display: none;
-}
-
-.XXL {
-    display: none;
-}
 
 
 /*Alles bis zu einer Maximalen Breite von 1024px*/
@@ -151,6 +137,10 @@ body {
     .L{
         display:block;
     }
+
+        .XS,.S,.M,.XL,.XXL {
+            display: none;
+        }
 
 
 }
