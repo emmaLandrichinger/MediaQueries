@@ -25,6 +25,10 @@ html, body{
 |---|---|
 |`max-width`|Stile gelten bis dieser Größe|
 |`min-width`|Stile gelten ab dieser Größe|
+|`orientation`|Bildschirmausrichting `landscape` oder `portrait`|
+|`screen`|Für bildschirme gültig|
+|`print`|Für Drucker gültig|
+|`not`|Invertiert die Bedingung|
  
 ### Einfaches Beispiel
  
@@ -43,3 +47,18 @@ html, body{
 |`git add .`|Alle Dateien ins Repo übernehmen|
 |`git commit -m "Text zum Commit"`|Commit erstellen|
 |`git push`|Alle Dateien ins Repo übernehmen|
+
+
+# Aufgabenstellung
+### 1. Breakpoints nach Bootstrap
+Setzten die Breakpoints nach Bootstrap so um, das sie jeweilige Bildschirmgröße ausgegeben wird
+
+### 2.Horizontal, Vertikal
+Zeige an, ob de Bildschirm Querformat oder Hochformat ist
+
+
+### 3. Ausdrucken
+Wenn die Seite ausgedruckt wird, soll der `large`-Inhalt ausgegeben werden und das Aussehen angepasst werden:
+- Hintergrund weiss
+- Schriftfarbe Schwarz
+- Bilder weg
