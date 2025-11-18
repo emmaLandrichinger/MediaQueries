@@ -4,3 +4,10 @@ body {
     height: 100%;
     background-color: green;
 }
+
+/*Alles bis zu einer Maximalen Breite von 1024px*/
+@media (mx-width: 1024px){
+    html, body {
+        background-color: red;
+    }
+}
