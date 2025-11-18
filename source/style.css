@@ -5,7 +5,26 @@ body {
     background-color: green;
 }
 
-.large{
+.XS{
+    display: none;
+}
+.S{
+    display: none;
+}
+
+.M{
+    display:none;
+}
+
+.L{
+    display: none;
+}
+
+.XL {
+    display: none;
+}
+
+.XXL {
     display: none;
 }
 
@@ -20,17 +39,75 @@ body {
 
     html,
     body {
-        background-color: orange;
+        background-color: yellow;
+    }
+
+    .XS{
+        display: block;
     }
 }
+
+/*s*/
+@media (min-width: 575px) and (max-width: 768px) {
+
+    html,
+    body {
+        background-color: lightsalmon;
+    }
+
+    .S{
+        display: block;
+    }
+}
+
+/*Medium*/
+@media (min-width: 767px) and (max-width: 992px) {
+
+    html,
+    body {
+        background-color: lightcoral;
+    }
+
+    .M {
+        display: block;
+    }
+}
+
+
 /*Large >= 992*/
 @media (min-width: 991px) and (max-width: 1200px){
 
     html,
     body {
-            background-color: pink;
+            background-color: violet;
         }
-    .large{
+    .L{
         display:block;
+    }
+}
+
+/*Extra large >= 1200*/
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+    html,
+    body {
+        background-color: blueviolet;
+    }
+
+    .XL {
+        display: block;
+    }
+}
+
+/*Extra Extra Large >= 992*/
+@media (min-width: 1400px) {
+
+    html,
+    body {
+        background-color: blue;
+    }
+
+    .XXL {
+        display: block;
     }
 }
