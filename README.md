@@ -5,10 +5,18 @@ Erste Schritte CSS
 ## Einführung
 ### Media Queries im CSS
 ```css
-@media(Bedingung){
-    /*Hier kommen die CSS Anweisungen hin,
-      die interpretiert werden,
-      wenn die Bedingung erfüllt ist*/
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: crimson;
+}
+ 
+@media (max-width: 1024px){
+    html, body{
+        width: 100%;
+        height: 100%;
+        background-color: darkolivegreen;
+    }
 }
 ```
 ### Typische Bedingung
@@ -26,11 +34,12 @@ Erste Schritte CSS
 |---|---|
 |`dir`,`ls`|Inhaltsverzeichnis anzeigen|
 |`cd`|Verzeichnis wechseln|
-
-## Git Befehle
+ 
+### Git Befehle
+ 
 |Bedingung|Bedeutung|
 |---|---|
-|`git clone`|Klont Git-Repo|
-|`git comit -m "Text zum Commit erstellen"`|Commit erstellen|
-|`git push`|Commit erstellen|
-|`git pull`|Commit erstellen|
+|`git clone`|Klont ein Git-Repo|
+|`git add .`|Alle Dateien ins Repo übernehmen|
+|`git commit -m "Text zum Commit"`|Commit erstellen|
+|`git push`|Alle Dateien ins Repo übernehmen|
