@@ -53,7 +53,8 @@ html, body{
 ### 1. Breakpoints nach Bootstrap
 Setzten die Breakpoints nach Bootstrap so um, das sie jeweilige Bildschirmgröße ausgegeben wird
 
-### 2.Horizontal, Vertikal
+
+### 2. Horizontal, Vertikal
 Zeige an, ob de Bildschirm Querformat oder Hochformat ist
 
 
@@ -62,3 +63,11 @@ Wenn die Seite ausgedruckt wird, soll der `large`-Inhalt ausgegeben werden und d
 - Hintergrund weiss
 - Schriftfarbe Schwarz
 - Bilder weg
+
+### 4. 3-Spalten-Layout
+Setze ein 3 Splaten-Layout mit `flex` oder `grid`um.
+
+Anforderungen:
+- `large` und größer: 3 Spalten
+- `medium` und `smal`: 2 Spalten
+- `smal` und kleiner: 1 Spalte

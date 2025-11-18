@@ -28,10 +28,6 @@ body {
     display: none;
 }
 
-/*Quer hchformat*/
-.quer,.vert {
-    display: none;
-}
 
 /*Alles bis zu einer Maximalen Breite von 1024px*/
 @media (max-width: 1024px){
@@ -117,6 +113,13 @@ body {
     }
 }
 
+/*Horizontal oder Vertika, Hoch oder Querformat*/
+
+.quer,
+.vert {
+    display: none;
+}
+
 @media (orientation: landscape){
     .quer{
         display: block;
@@ -128,3 +131,20 @@ body {
         display: block;
     }
 }
+
+/*Ausdrucken*/
+@media print{
+    body{
+        background-color: white ;
+        color: black ;
+    }
+
+    img{
+        display: none;
+    }
+
+
+}
+
+
+/*3-Spalten*/
