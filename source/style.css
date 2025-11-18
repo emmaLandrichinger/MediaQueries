@@ -140,7 +140,7 @@ body {
     }
 
     /*Orientierung und Bilder weg*/
-    .info{display:none;}
+    .vert,.quer,img{display:none;}
 
     
 
