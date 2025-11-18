@@ -28,6 +28,11 @@ body {
     display: none;
 }
 
+/*Quer hchformat*/
+.quer,.vert {
+    display: none;
+}
+
 /*Alles bis zu einer Maximalen Breite von 1024px*/
 @media (max-width: 1024px){
     html, body {
@@ -112,6 +117,14 @@ body {
     }
 }
 
-.quer, .vert{
-    display:none;
+@media (orientation: landscape){
+    .quer{
+        display: block;
+    }
+}
+
+@media (orientation: portrait) {
+    .vert {
+        display: block;
+    }
 }
