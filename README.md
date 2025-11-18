@@ -63,6 +63,7 @@ Wenn die Seite ausgedruckt wird, soll der `large`-Inhalt ausgegeben werden und d
 - Hintergrund weiss
 - Schriftfarbe Schwarz
 - Bilder weg
+- Ausrichtung weg
 
 ### 4. 3-Spalten-Layout
 Setze ein 3 Splaten-Layout mit `flex` oder `grid`um.

@@ -134,14 +134,15 @@ body {
 
 /*Ausdrucken*/
 @media print{
-    body{
-        background-color: white ;
-        color: black ;
+    html, body{
+        background-color: white !important;
+        color: black !important;
     }
 
-    img{
-        display: none;
-    }
+    /*Orientierung und Bilder weg*/
+    .info{display:none;}
+
+    
 
 
 }
