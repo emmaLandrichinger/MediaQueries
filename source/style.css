@@ -139,10 +139,18 @@ body {
         color: black !important;
     }
 
-    /*Orientierung und Bilder weg*/
-    .vert,.quer,img{display:none;}
+    /*Orientierung  weg*/
+    .vert,.quer{display:none;}
 
-    
+    /*Bilder weg*/
+    img{
+        display: none;
+    }
+
+    /*Large drucken*/
+    .L{
+        display:block;
+    }
 
 
 }
